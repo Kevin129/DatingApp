@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Facebook2</string>
+    <string name="wprowad_adress_e_mail">Wprowadź adress e-mail</string>
+    <string name="adress_e_mail">Adress e-mail</string>
+    <string name="wyslij">Wyślij</string>
+    <string name="todo">TODO</string>
+    <string name="send">Send</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="zapomnia_em_has_o">Zapomniałem hasło</string>
+    <string name="poka_has_o">Pokaż Hasło</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="has_o">Hasło</string>
+    <string name="login">Login</string>
+</resources>

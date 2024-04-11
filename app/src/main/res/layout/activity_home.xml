@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/backgroundtrzy">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imię"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wiek"
+        android:inputType="number"
+        android:layout_below="@id/editTextName"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Opis"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonOpenGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Otwórz galerię"
+        android:layout_below="@id/editTextDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Zapisz"
+        android:layout_below="@id/buttonOpenGallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Przycisk "Wyloguj" został usunięty -->
+
+    <Button
+        android:id="@+id/buttonUserList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Lista użytkowników"
+        android:layout_below="@id/buttonSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
